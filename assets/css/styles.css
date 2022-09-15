@@ -206,7 +206,7 @@ img {
 .nav__dropdown {
   overflow: hidden;
   max-height: 21px;
-  transition: 4s ease-in-out;
+  transition: .4s ease-in-out;
 }
 
 .nav__dropdown-collapse {
