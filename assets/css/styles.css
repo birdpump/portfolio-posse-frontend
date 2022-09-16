@@ -162,6 +162,7 @@ img {
 
 .nav__items {
   row-gap: 1.5rem;
+  margin-top: 30px;
 }
 
 .nav__subtitle {
