@@ -1,141 +1,144 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--css-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
-        <title>Portfolio Posse</title>
-    </head>
-    <body>
-        <!--header-->
-        <header class="header">
-            <div class="header__container">
-                <img src="assets/img/logo_w.png" alt="" class="header__img">
+    <!--css-->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-                <img href="#" src="assets/img/logo_w.png" class="header__logo">
-    
-                
-    
-                <div class="header__toggle">
-                    <i class='bx bx-menu' id="header-toggle"></i>
-                </div>
+    <title>Portfolio Posse</title>
+</head>
+
+<body>
+    <!--header-->
+    <header class="header">
+        <div class="header__container">
+            <img src="assets/img/logo_w.png" alt="" class="header__img">
+
+            <img href="#" src="assets/img/logo_w.png" class="header__logo">
+
+
+
+            <div class="header__toggle">
+                <i class='bx bx-menu' id="header-toggle"></i>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <!--nav bar-->
-        <div class="nav" id="navbar">
-            <nav class="nav__container">
-                <div>
-    
-                    <div class="nav__list">
-                        <div class="nav__items">
-                            
-    
-                            <a href="#" class="nav__link active">
-                                <i class='bx bx-home nav__icon' ></i>
-                                <span class="nav__name">Home</span>
-                            </a>
+    <!--nav bar-->
+    <div class="nav" id="navbar">
+        <nav class="nav__container">
+            <div>
 
+                <div class="nav__list">
+                    <div class="nav__items">
+
+
+                        <a href="#" class="nav__link active">
+                            <i class='bx bx-home nav__icon'></i>
+                            <span class="nav__name">Home</span>
+                        </a>
+
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-line-chart nav__icon'></i>
+                            <span class="nav__name">Portfolio</span>
+                        </a>
+
+                        <div class="nav__dropdown">
                             <a href="#" class="nav__link">
-                                <i class='bx bx-line-chart nav__icon' ></i>
-                                <span class="nav__name">Portfolio</span>
+                                <i class='bx bx-user nav__icon'></i>
+                                <span class="nav__name">Profile</span>
+                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
                             </a>
-                            
-                            <div class="nav__dropdown">
-                                <a href="#" class="nav__link">
-                                    <i class='bx bx-user nav__icon' ></i>
-                                    <span class="nav__name">Profile</span>
-                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
-                                </a>
 
-                                <div class="nav__dropdown-collapse">
-                                    <div class="nav__dropdown-content">
-                                        <a href="#" class="nav__dropdown-item">Passwords</a>
-                                        <a href="#" class="nav__dropdown-item">Mail</a>
-                                        <a href="#" class="nav__dropdown-item">Accounts</a>
-                                    </div>
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="#" class="nav__dropdown-item">Passwords</a>
+                                    <a href="#" class="nav__dropdown-item">Mail</a>
+                                    <a href="#" class="nav__dropdown-item">Accounts</a>
                                 </div>
                             </div>
+                        </div>
 
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-chat nav__icon'></i>
+                            <span class="nav__name">Talk</span>
+                        </a>
+                    </div>
+
+                    <div class="nav__items">
+                        <h3 class="nav__subtitle">Other</h3>
+
+                        <div class="nav__dropdown">
                             <a href="#" class="nav__link">
-                                <i class='bx bx-chat nav__icon' ></i>
-                                <span class="nav__name">Talk</span>
+                                <i class='bx bx-book-content nav__icon'></i>
+                                <span class="nav__name">Docs</span>
+                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
                             </a>
+
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="#" class="nav__dropdown-item">Portfolio Posse Docs</a>
+                                    <a href="#" class="nav__dropdown-item">FAQ</a>
+                                </div>
+                            </div>
+
                         </div>
-    
-                        <div class="nav__items">
-                            <h3 class="nav__subtitle">Other</h3>
-    
-                            <div class="nav__dropdown">
-                                <a href="#" class="nav__link">
-                                    <i class='bx bx-book-content nav__icon' ></i>
-                                    <span class="nav__name">Docs</span>
-                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
-                                </a>
 
-                                <div class="nav__dropdown-collapse">
-                                    <div class="nav__dropdown-content">
-                                        <a href="#" class="nav__dropdown-item">Portfolio Posse Docs</a>
-                                        <a href="#" class="nav__dropdown-item">FAQ</a>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="nav__dropdown">
-                                <a href="#" class="nav__link">
-                                    <i class='bx bx-cabinet nav__icon' ></i>
-                                    <span class="nav__name">Legal</span>
-                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
-                                </a>
-
-                                <div class="nav__dropdown-collapse">
-                                    <div class="nav__dropdown-content">
-                                        <a href="#" class="nav__dropdown-item">Terms of Service</a>
-                                        <a href="#" class="nav__dropdown-item">Privacy Policy</a>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="nav__dropdown">
-                                <a href="#" class="nav__link">
-                                    <i class='bx bx-note nav__icon' ></i>
-                                    <span class="nav__name">Our Company</span>
-                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
-                                </a>
-
-                                <div class="nav__dropdown-collapse">
-                                    <div class="nav__dropdown-content">
-                                        <a href="#" class="nav__dropdown-item">About Us</a>
-                                        <a href="#" class="nav__dropdown-item">Support & Contact</a>
-                                        <a href="" class="nav__dropdown-item">News</a>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            
+                        <div class="nav__dropdown">
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-cabinet nav__icon'></i>
+                                <span class="nav__name">Legal</span>
+                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
                             </a>
+
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="#" class="nav__dropdown-item">Terms of Service</a>
+                                    <a href="#" class="nav__dropdown-item">Privacy Policy</a>
+                                </div>
+                            </div>
+
                         </div>
+
+                        <div class="nav__dropdown">
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-note nav__icon'></i>
+                                <span class="nav__name">Our Company</span>
+                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                            </a>
+
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="#" class="nav__dropdown-item">About Us</a>
+                                    <a href="#" class="nav__dropdown-item">Support & Contact</a>
+                                    <a href="" class="nav__dropdown-item">News</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        </a>
                     </div>
                 </div>
+            </div>
 
-            </nav>
-        </div>
+        </nav>
+    </div>
 
-        <!--main cont-->
-        <main>
-            <section>
-            
-            </section>
-        </main>
+    <!--main cont-->
+    <main>
+        <section>
 
-        <script src="assets/js/main.js"></script>
-    </body>
+        </section>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
