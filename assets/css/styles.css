@@ -140,6 +140,7 @@ img {
   padding-bottom: 3rem;
   overflow: auto;
   scrollbar-width: none;
+  margin-top: 5px;
 }
 
 .nav__container::-webkit-scrollbar {
